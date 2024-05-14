@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="archi.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .ag-bar-block .ag-bar-item {padding:20px}
+    </style>    
+  </head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="ag-sidebar ag-bar-block ag-card ag-top ag-xlarge ag-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="ag_close()"
+  class="ag-bar-item ag-button">X</a>
+  <a href="#projects" onclick="ag_close()" class="ag-bar-item ag-button">Projects</a>
+  <a href="#about" onclick="ag_close()" class="ag-bar-item ag-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="ag-top">
+  <div class="ag-white ag-xlarge" style="max-width:1200px;margin:auto">
+    <div class="ag-button ag-padding-16 ag-left" onclick="ag_open()">☰</div>
+    <div class="ag-right ag-padding-16">Mail</div>
+    <div class="ag-center ag-padding-16">My Projects</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="ag-main ag-content ag-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="ag-row-padding ag-padding-16 ag-center" id="Projects">
+    <div class="ag-quarter">
+      <img src="C:\Users\archi\OneDrive\Pictures\Saved Pictures\cal.jpg" alt="Calculator" style="width:100%">
+      <h3>Calculator GUI</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <a href="codeblock.html"> Code </a>
+    </div>
+    <div class="ag-quarter">
+      <img src="C:\Users\archi\OneDrive\Pictures\Saved Pictures\ttt.jpg" alt="Steak" style="width:100%">
+      <h3>Tic Tac Toe GUI(basic)</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Validation(bootstrap)</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Pop-up Form</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="ag-row-padding ag-padding-16 ag-center">
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="ag-quarter">
+      <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="ag-center ag-padding-32">
+    <div class="ag-bar">
+      <a href="#" class="ag-bar-item ag-button ag-hover-black">«</a>
+      <a href="#" class="ag-bar-item ag-black ag-button">1</a>
+      <a href="#" class="ag-bar-item ag-button ag-hover-black">2</a>
+      <a href="#" class="ag-bar-item ag-button ag-hover-black">3</a>
+      <a href="#" class="ag-bar-item ag-button ag-hover-black">4</a>
+      <a href="#" class="ag-bar-item ag-button ag-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="ag-container ag-padding-32 ag-center">  
+    <h3>About Me</h3><br>
+    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="Me" class="ag-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="ag-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Coding</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknown. I have a heart of love and an interest in AI and Blockchain. I want to share my world with you.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="ag-row-padding ag-padding-32">
+    <div class="ag-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Made by Archi Goyal</p>
+    </div>
+  
+    <div class="ag-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="ag-ul ag-hoverable">
+        <li class="ag-padding-16">
+          <img src="https://www.w3schools.com/w3images/workshop.jpg" class="ag-left ag-margin-right" style="width:50px">
+          <span class="ag-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="ag-padding-16">
+          <img src="https://www.w3schools.com/w3images/gondol.jpg" class="ag-left ag-margin-right" style="width:50px">
+          <span class="ag-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="ag-third ag-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="ag-tag ag-black ag-margin-bottom">Coding</span> <span class="ag-tag w3-dark-grey ag-small ag-margin-bottom">AI</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">WebDev</span>
+        <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Blockchain</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Web3</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Hacker</span>
+        <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Ideas</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Flavors</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Cuisine</span>
+        <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Chicken</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Dressing</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Fried</span>
+        <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Fish</span> <span class="ag-tag ag-dark-grey ag-small ag-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function ag_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function ag_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
